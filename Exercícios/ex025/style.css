@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(107, 107, 107);
+}
+
+fieldset {
+    background-image: linear-gradient(to left, rgb(128, 128, 128), rgba(92, 92, 92, 0.39));
+    width: 40vw;
+    height: auto;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 7px 5px 14px #00000038;
+}
+
+#inome, #iemail, #itel {
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(187, 187, 187);
+    box-shadow: 7pz 5pz 12px #00000038;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
