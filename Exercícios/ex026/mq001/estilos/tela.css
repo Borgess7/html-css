@@ -9,13 +9,22 @@
 
 body {
     background-color: rgb(167, 167, 167);
+    padding: 12px;
+    max-width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 2;
 }
 
 header {
     background-color: rgba(46, 46, 46, 0.541);
     box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.171);
     margin: 7px;
-    border-radius: 7px;
+    margin-bottom: 0px;
+    width: 3000px;
+    border-radius: 7px 7px 0px 0px;
     padding: 12px;
 
     display: flex;
@@ -46,19 +55,21 @@ header nav a {
 
 a:hover {
     background-color: rgba(59, 59, 59, 0.226);
-    border-radius: 7px;
-    padding: 7px;
+    border-radius: 10px;
+    padding: 5px;
     color: rgba(255, 255, 255, 0.692);
     transition: 0.5s;
 }
 
 main {
+    
     background-color: rgba(245, 245, 220, 0.658);
     margin: 7px;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding: 12px;
     box-shadow: 3px 7px 9px rgba(0, 0, 0, 0.13);
-    border-radius: 7px 7px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
 
     font-size: x-large;
     text-indent: 0.75em;
@@ -69,6 +80,7 @@ footer {
     background-color: black;
     color: aliceblue;
     text-align: center;
+    width: 3000px;
     margin: 7px;
     margin-top: 0px;
     padding: 9px;
