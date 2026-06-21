@@ -16,16 +16,44 @@ body {
 
 header {
     background-color: rgb(100, 100, 100);
+    color: white;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1 {
     color: aliceblue;
     border: 1px dotted;
     padding: 5px;
+    flex: 0 0 200px;
 }
 
 header > nav {
     border: 1px dotted;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+header > nav > a {
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color .5s;
 }
 
 main {
