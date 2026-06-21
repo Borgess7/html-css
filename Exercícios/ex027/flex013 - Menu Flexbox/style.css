@@ -11,11 +11,11 @@ body {
     font-size: 1em;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(163, 104, 94);
 }
 
 header {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(97, 63, 63);
     color: white;
     padding: 10px;
 
@@ -26,14 +26,15 @@ header {
 }
 
 header > h1 {
+    /*border: 1px dotted;*/
     color: aliceblue;
-    border: 1px dotted;
     padding: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.274);
     flex: 0 0 200px;
 }
 
 header > nav {
-    border: 1px dotted;
+   /*border: 1px dotted;*/
 
     display: flex;
     flex-flow: row wrap;
@@ -41,7 +42,7 @@ header > nav {
 }
 
 header > nav > a {
-    background-color: aqua;
+    background-color: rgba(202, 115, 34, 0.801);
     color: white;
     padding: 10px;
     margin: 5px;
@@ -57,7 +58,7 @@ header > nav > a:hover {
 }
 
 main {
-    background-color: azure;
+    background-color: rgb(189, 163, 152);
     margin: 10px;
     padding: 10px;
     border-radius: 7px;
